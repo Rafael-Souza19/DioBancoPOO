@@ -2,8 +2,8 @@ package banco;
 
 public class Principal {
     public static void main(String[] args) {
-        ContaCorrente contaCorrente = new ContaCorrente("1234-CC");
-        ContaPoupança contaPoupanca = new ContaPoupança("5678-PP");
+        ContaCorrente contaCorrente = new ContaCorrente("1234-Cc");
+        ContaPoupança contaPoupanca = new ContaPoupança("5678-Po");
 
         contaCorrente.depositar(1000);
         contaPoupanca.depositar(500);
